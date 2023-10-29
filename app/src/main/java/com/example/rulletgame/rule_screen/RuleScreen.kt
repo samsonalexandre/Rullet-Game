@@ -91,7 +91,7 @@ fun RuleScreen() {
         Button(onClick = {
                          rotationValue = (720..1080).random().toFloat() + angle
         },
-            colors = ButtonDefaults.buttonColors(),  //(backgroundColor = Red),
+            colors = ButtonDefaults.buttonColors(Color.Red),  //(backgroundColor = Red),
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(10.dp)
