@@ -91,15 +91,17 @@ fun RuleScreen() {
         Button(onClick = {
                          rotationValue = (720..1080).random().toFloat() + angle
         },
-            colors = ButtonDefaults.buttonColors(Color.Red),  //(backgroundColor = Red),
+            colors = ButtonDefaults.buttonColors(Color.Red),
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(10.dp)
         ) {
             Text(
                 text = "Start",
-                color = Color.White)
-
+                color = Color.White,
+                fontSize = 26.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
