@@ -1,6 +1,5 @@
 package com.example.rulletgame.rule_screen
 
-import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -76,14 +75,14 @@ fun RuleScreen() {
             .weight(1f)
             .fillMaxSize()) {
             Image(
-                painter = painterResource(id = R.drawable.ruleta),
-                contentDescription = "Ruleta",
+                painter = painterResource(id = R.drawable.roulette),
+                contentDescription = "Roulette",
                 modifier = Modifier
                     .fillMaxSize()
                     .rotate(angle)
             )
-            Image(painter = painterResource(id = R.drawable.flecha),
-                contentDescription = "Flecha",
+            Image(painter = painterResource(id = R.drawable.pfeil),
+                contentDescription = "Pfeil",
                 modifier = Modifier
                     .fillMaxSize()
 
