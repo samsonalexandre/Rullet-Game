@@ -18,6 +18,8 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -26,22 +28,23 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.rulletgame.R
 import com.example.rulletgame.utils.NumberUtil
 import kotlin.math.roundToInt
 
-
+@Preview
 @Composable
 fun RuleScreen() {
 
     var rotationValue by remember {
-        mutableStateOf(0f)
+        mutableFloatStateOf(0f)
     }
 
     var number by remember {
-        mutableStateOf(0)
+        mutableIntStateOf(0)
     }
 
     val angle: Float by animateFloatAsState(
@@ -68,7 +71,7 @@ fun RuleScreen() {
                 .wrapContentWidth(),
             text = number.toString(),
             fontWeight = FontWeight.Bold,
-            fontSize = 35.sp,
+            fontSize = 45.sp,
             color = Color.White
         )
         Box(modifier = Modifier
@@ -85,7 +88,6 @@ fun RuleScreen() {
                 contentDescription = "Pfeil",
                 modifier = Modifier
                     .fillMaxSize()
-
             )
         }
         Button(onClick = {
@@ -99,7 +101,7 @@ fun RuleScreen() {
             Text(
                 text = "Start",
                 color = Color.White,
-                fontSize = 26.sp,
+                fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
             )
         }

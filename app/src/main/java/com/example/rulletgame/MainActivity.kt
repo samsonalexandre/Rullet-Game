@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.rulletgame.rule_screen.RuleScreen
 import com.example.rulletgame.ui.theme.GreenBg
 import com.example.rulletgame.ui.theme.RulletGameTheme
