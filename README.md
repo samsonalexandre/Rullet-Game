@@ -19,7 +19,6 @@ Enthält die Roulette-Simulation.
 Verwendet Jetpack Compose für die Benutzeroberfläche.
 Enthält einen "Start"-Button zum Drehen des Roulettes.
 Zeigt die ausgewählte Zahl an.
-Technische Details
 
 Animation:
 Verwendet Jetpack Compose Animation für die Rotation des Roulettes.
