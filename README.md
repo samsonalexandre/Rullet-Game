@@ -1,5 +1,7 @@
 RulletGame
 
+![Bildschirmfoto 2023-11-15 um 12 02 33](https://github.com/samsonalexandre/Rullet-Game/assets/12011808/00ff036b-664a-4458-8ec4-c70f4a31d3ca)
+
 Beschreibung
 
 Die RulletGame-App ist eine einfache Android-Anwendung, die eine virtuelle Roulette-Simulation bereitstellt. Die App ist in Kotlin geschrieben und verwendet Jetpack Compose für die Benutzeroberfläche.
