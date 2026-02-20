@@ -1,6 +1,6 @@
 # RulletGame – Jetpack Compose Demo App
 
-![Bildschirmfoto 2023-11-15 um 12 02 33](https://github.com/samsonalexandre/Rullet-Game/assets/12011808/00ff036b-664a-4458-8ec4-c70f4a31d3ca)
+![[Bildschirmfoto 2023-11-15 um 12 02 33](https://github.com/samsonalexandre/Rullet-Game/assets/12011808/00ff036b-664a-4458-8ec4-c70f4a31d3ca)](https://github.com/samsonalexandre/Rullet-Game/blob/master/images/Rulet-Game.png)
 
 RulletGame ist eine einfache Android-Anwendung, die eine virtuelle Roulette-Simulation implementiert.  
 Das Projekt wurde erstellt, um moderne UI-Entwicklung mit Jetpack Compose sowie State Management und Animationen praktisch zu erlernen.
